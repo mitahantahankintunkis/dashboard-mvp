@@ -14,7 +14,7 @@ div {
     cursor: pointer;
     margin-right:  1rem;
     text-decoration: underline;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 3.6rem;
 }
 </style>

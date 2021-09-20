@@ -12,14 +12,14 @@
 
 <style scoped>
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     width: 100%;
     height: 100%;
     line-height: 30vh;
 }
 
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     width: 100%;
     height: 100%;
 }

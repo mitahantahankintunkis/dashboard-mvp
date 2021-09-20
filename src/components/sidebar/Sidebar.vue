@@ -62,7 +62,7 @@ ul {
 }
 
 li {
-    height: 3.5rem;
+    height: 2.5rem;
 }
 
 li:hover,
@@ -72,14 +72,14 @@ li:hover,
 }
 
 a {
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: start;
     width: 100%;
     height: 100%;
     display: block;
-    line-height: 3.9rem;
+    line-height: 2.8rem;
     color: white;
     text-decoration: none;
-    padding-left: 0.7rem;
+    padding-left: 0.5rem;
 }
 </style>

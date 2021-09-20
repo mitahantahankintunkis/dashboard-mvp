@@ -40,12 +40,6 @@ h1 {
     line-height: 30vh;
 }
 
-p {
-    font-size: 2rem;
-    width: 100%;
-    height: 100%;
-}
-
 ul {
     list-style: none;
     margin: 0 auto;

@@ -63,14 +63,15 @@ table {
 
 th, td {
     text-align: start;
+    font-size: 1rem;
 }
 
 .title {
-    font-size: 1.8rem; text-align: start;
+    font-size: 1.4rem; text-align: start;
 }
 
 .subtitle {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: gray;
     text-align: start;
 }
