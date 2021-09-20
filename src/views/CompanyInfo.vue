@@ -30,7 +30,7 @@ const props = defineProps({
 <table>
     <tr>
         <th>Osoite</th>
-        <td>{{ rawData['Postitoimipaikka'] }}</td>
+        <td>{{ `${rawData['Osoite']}, ${rawData['Postitoimipaikka']}` }}</td>
     </tr>
     <tr>
         <th>Y-tunnus</th>
