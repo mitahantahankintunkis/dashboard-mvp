@@ -108,7 +108,8 @@ p {
 ul {
     list-style: none;
     margin: 0 auto;
-    overflow: scroll;
+    overflow-y: scroll;
+    height: 100%;
 }
 
 li {
