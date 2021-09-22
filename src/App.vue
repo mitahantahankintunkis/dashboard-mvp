@@ -8,7 +8,9 @@ import Header from './components/header/Header.vue'
 
 
 <template>
+<!--
 <Header></Header>
+-->
 <div class="content">
     <Sidebar></Sidebar>
     <Content></Content>

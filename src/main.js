@@ -8,12 +8,6 @@ const routes = [
     {
         path: '/yritystiedot',
         component: () => import('./views/CompanyPage.vue'),
-        //children: [
-        //    {
-        //        path: 'tyopaikat',
-        //        component: () => import('./views/JobsPage.vue'),
-        //    },
-        //],
     },
 
     {
@@ -25,8 +19,10 @@ const routes = [
         component: () => import('./views/JobApplicantsPage.vue'),
     },
 
+    { path: '/koulutukset', component: () => import('./views/EducationPage.vue') },
+    { path: '/koulutukset/:id', component: () => import('./views/EducationGroup.vue') },
+
     { path: '/yleiskatsaus', component: () => import('./views/TodoPage.vue') },
-    { path: '/koulutukset', component: () => import('./views/TodoPage.vue') },
     { path: '/palvelukatalogi', component: () => import('./views/TodoPage.vue') },
     { path: '/tiedottaminen', component: () => import('./views/TodoPage.vue') },
     { path: '/oppimisen-seuranta', component: () => import('./views/TodoPage.vue') },

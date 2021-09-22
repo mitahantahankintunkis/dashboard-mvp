@@ -43,7 +43,7 @@ aside {
     overflow: auto;
     width: 20rem;
     z-index: 10;
-    top: 3.6rem;
+    top: 0;
     bottom: 0;
     left: 0;
 }

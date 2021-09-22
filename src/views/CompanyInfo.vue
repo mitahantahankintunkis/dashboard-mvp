@@ -66,6 +66,14 @@ th, td {
     font-size: 1rem;
 }
 
+th {
+    width: 30%;
+}
+
+td {
+    width: 70%;
+}
+
 .title {
     font-size: 1.4rem; text-align: start;
 }
