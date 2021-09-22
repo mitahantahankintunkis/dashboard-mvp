@@ -36,22 +36,19 @@ const dudes = [
 
     <div class="card graph-completed">
         <div class="card-title">Täytetyt osaamiskartoitukset</div>
-        <div class="card-content">
-            <img src="../assets/pie.png" alt="pie chart">
+        <div class="card-content img img-completed">
         </div>
     </div>
 
     <div class="card graph-learning">
         <div class="card-title">Jatkokoulutuksessa olevat</div>
-        <div class="card-content">
-            <img src="../assets/pie.png" alt="pie chart">
+        <div class="card-content img img-learning">
         </div>
     </div>
 
     <div class="card graph-pdc">
         <div class="card-title">PDC:n seuranta</div>
-        <div class="card-content">
-            <img src="../assets/pdc.png" alt="pie chart">
+        <div class="card-content img img-pdc">
         </div>
     </div>
 </div>
@@ -80,14 +77,19 @@ const dudes = [
     padding-bottom: 0.5rem;
 }
 
-.card-content > img {
-    height: 100%;
-    width: auto;
+.img {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.graph-pdc .card-content img {
-    height: auto;
-    width: 100%;
+.img-completed,
+.img-learning {
+    background-image: url("../assets/pie.png");
+}
+
+.img-pdc {
+    background-image: url("../assets/pdc.png");
 }
 
 h1 {
