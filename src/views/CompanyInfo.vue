@@ -58,6 +58,7 @@ const props = defineProps({
 
 <style scoped>
 table {
+    width: 100%;
     margin-top: 2rem;
 }
 

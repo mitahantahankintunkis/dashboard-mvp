@@ -81,6 +81,7 @@ const dudes = [
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    max-height: 90%;
 }
 
 .img-completed,
@@ -108,7 +109,7 @@ p {
 ul {
     list-style: none;
     margin: 0 auto;
-    overflow-y: scroll;
+    overflow-y: auto;
     height: 100%;
 }
 
