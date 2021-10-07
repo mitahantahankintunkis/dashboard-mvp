@@ -8,6 +8,7 @@ const listItems = [
     { label: 'Palvelukatalogi', path: '/palvelukatalogi' },
     { label: 'Tiedottaminen', path: '/tiedottaminen' },
     { label: 'Oppimisen seuranta', path: '/oppimisen-seuranta' },
+    { label: 'Teknoloikka', path: '/teknoloikka' },
 ]
 
 </script>

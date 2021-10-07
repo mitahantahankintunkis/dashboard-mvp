@@ -19,6 +19,8 @@ const routes = [
         component: () => import('./views/JobApplicantsPage.vue'),
     },
 
+    { path: '/teknoloikka', component: () => import('./views/TeknoloikkaView.vue') },
+
     { path: '/koulutukset', component: () => import('./views/EducationPage.vue') },
     { path: '/koulutukset/:id', component: () => import('./views/EducationGroup.vue') },
 
