@@ -24,7 +24,7 @@ const props = defineProps({
 
 
 <template>
-<p class="title">{{ this.rawData['Yritys'] }}</p>
+<p class="title">{{ rawData['Yritys'] }}</p>
 <p class="subtitle">{{ rawData['Toimiala'] }}</p>
 
 <table>
